@@ -56,4 +56,12 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+//implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1" // Per gestire il ciclo di vita
+//implementation "com.google.code.gson:gson:2.8.9" // Per serializzare e deserializzare i messagg
+
+    implementation("com.google.code.gson:gson:2.10.1")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
+
+    implementation("com.google.android.gms:play-services-nearby:19.3.0")
 }

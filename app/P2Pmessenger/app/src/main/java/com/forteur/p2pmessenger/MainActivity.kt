@@ -20,10 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             P2PmessengerTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    ChatScreen(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
